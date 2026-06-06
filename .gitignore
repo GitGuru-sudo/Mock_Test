@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment files — NEVER commit these
+.env
+**/.env
+!**/.env.example
+
+# Build output
+client/dist/
+client/.vercel/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Kiro spec files (internal planning, not needed in repo)
+.kiro/
